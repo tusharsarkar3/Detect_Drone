@@ -5,24 +5,13 @@
 </p>
 <br>
 <p>
-YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
- open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
+ This drone detection system uses YOLOv5 which is a family of object detection architectures and we have trained the model on <a href="https://www.kaggle.com/dasmehdixtr/drone-dataset-uav">Drone Dataset</a>.
 </p>
-
-<!-- 
-<a align="center" href="https://ultralytics.com/yolov5" target="_blank">
-<img width="800" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/banner-api.png"></a>
--->
 
 </div>
 
 
-## <div align="center">Documentation</div>
-
-See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
-
-
-## <div align="center">Quick Start Examples</div>
+## <div align="center">Installation</div>
 
 
 <details open>
