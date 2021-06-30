@@ -69,11 +69,11 @@ $ python detect.py --weights 'path to the best set of weights' --source 0  # web
 ---
 ### Results:
 
+![img](exp27/test_batch0_pred.jpg)
 ![img](exp27/results.png)
 ![img](exp27/P_curve.png) 
 ![img](exp27/R_curve.png)
 ![img](exp27/PR_curve.png)
-![img](exp27/test_batch0_pred.jpg)
 
 ---
 
