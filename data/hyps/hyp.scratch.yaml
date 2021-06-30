@@ -1,5 +1,5 @@
 # Hyperparameters for COCO training from scratch
-# python train.py --batch 40 --cfg yolov5m.yaml --weights '' --data coco.yaml --img 640 --epochs 300
+# python train.py --batch 40 --cfg yolov5m.yaml --weights '' --data drone.yaml --img 640 --epochs 300
 # See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials
 
 
