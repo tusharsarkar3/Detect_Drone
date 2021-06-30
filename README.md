@@ -28,24 +28,7 @@ $ pip install -r requirements.txt
  Check out <a href="https://github.com/ultralytics/yolov5">YOLOv5</a> for more information
 </details>
 
-
-<details>
-<summary>Inference </summary>
-
-```bash
-$ python detect.py --source 0  # webcam         --weights 'path to the best set of weights'
-                            file.jpg  # image 
-                            file.mp4  # video
-                            path/  # directory
-                            path/*.jpg  # glob
-                            'https://youtu.be/NUsoVlDFqZg'  # YouTube video
-                            'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-```
-
-Check out <a href="https://github.com/ultralytics/yolov5">YOLOv5</a> for more information.
-</details>
-
-<details>
+<details open>
 <summary>Training</summary>
 
  The structure of the file system is of great importance here so these images will show you the correct way of organizing it. The main folder named datasets should be on the same level as this repository. The next steps are elaborated in the images: 
@@ -67,6 +50,22 @@ $ $ python train.py --img 640 --batch 16 --epochs 15 --data coco128.yaml --weigh
 
  Check out <a href="https://github.com/ultralytics/yolov5">YOLOv5</a> for more information.
 </details>  
+
+<details open>
+<summary>Inference </summary>
+
+```bash
+$ python detect.py --source 0  # webcam         --weights 'path to the best set of weights'
+                            file.jpg  # image 
+                            file.mp4  # video
+                            path/  # directory
+                            path/*.jpg  # glob
+                            'https://youtu.be/NUsoVlDFqZg'  # YouTube video
+                            'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+```
+
+Check out <a href="https://github.com/ultralytics/yolov5">YOLOv5</a> for more information.
+</details>
 
 ---
 ### Results:
